@@ -792,6 +792,16 @@ function menu(){
     rm -rf menu.zip
 }
 
+# Instal UDP
+function udp(){
+clear
+print_install "Memasang UDP"
+wget https://raw.githubusercontent.com/Lvv7/Apex/main/udpx.sh
+chmod +x udpx.sh
+./udpx.sh
+}
+
+
 # Membaut Default Menu 
 function profile(){
 clear
@@ -896,7 +906,7 @@ print_install "Enable Service"
     clear
 }
 
-# Fingsi Install Script
+# Fungsi Install Script
 function instal(){
 clear
     first_setup
@@ -908,6 +918,7 @@ clear
     pasang_ssl
     install_xray
     ssh
+    udp
     udp_mini
     ssh_slow
     ins_SSHD
