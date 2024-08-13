@@ -39,7 +39,7 @@ res1() {
     #mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
-    wget -q O- fv-tunnel "https://raw.githubusercontent.com/Lvv7/Apex/ZX/config/fv-tunnel" 
+    wget -q fv-tunnel "https://raw.githubusercontent.com/Lvv7/Apex/ZX/config/fv-tunnel" 
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
