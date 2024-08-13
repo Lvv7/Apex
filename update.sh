@@ -30,7 +30,7 @@ res1() {
     wget https://raw.githubusercontent.com/Lvv7/Apex/ZX/menu/menu.zip
     wget -q /usr/bin/enc "https://raw.githubusercontent.com/Lvv7/Apex/ZX/encrypt/epro" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
-    unzip menu.zip
+    unzip menu
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin    
