@@ -45,7 +45,7 @@ res1() {
     rm -rf fv-tunnel
 }
 netfilter-persistent
-clear
+#clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " \e[1;97;101m            UPDATE SCRIPT               \e[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
