@@ -51,7 +51,8 @@ echo -e " \e[1;97;101m            UPDATE SCRIPT               \e[0m"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 echo -e "  \033[1;91m Update Script Service\033[1;37m"
-fun_bar 'res1'
+fun_bar 
+res1
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e "Update Finish . . . "
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
